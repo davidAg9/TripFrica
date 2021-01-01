@@ -13,6 +13,13 @@
 		979CBBDC259F08780072609B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 979CBBDB259F08780072609B /* Preview Assets.xcassets */; };
 		979CBBE7259F08780072609B /* TripFricaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 979CBBE6259F08780072609B /* TripFricaTests.swift */; };
 		979CBBF2259F08780072609B /* TripFricaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 979CBBF1259F08780072609B /* TripFricaUITests.swift */; };
+		979CBC03259F15310072609B /* tips.json in Resources */ = {isa = PBXBuildFile; fileRef = 979CBC02259F15310072609B /* tips.json */; };
+		979CBC08259F153E0072609B /* locations.json in Resources */ = {isa = PBXBuildFile; fileRef = 979CBC07259F153E0072609B /* locations.json */; };
+		979CBC0D259F16720072609B /* location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 979CBC0C259F16720072609B /* location.swift */; };
+		979CBC15259F27DC0072609B /* locations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 979CBC14259F27DC0072609B /* locations.swift */; };
+		979CBC1A259F32680072609B /* WorldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 979CBC19259F32680072609B /* WorldView.swift */; };
+		979CBC1F259F4FB80072609B /* tips.swift in Sources */ = {isa = PBXBuildFile; fileRef = 979CBC1E259F4FB80072609B /* tips.swift */; };
+		979CBC24259F4FC90072609B /* TipsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 979CBC23259F4FC90072609B /* TipsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +52,13 @@
 		979CBBED259F08780072609B /* TripFricaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TripFricaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		979CBBF1259F08780072609B /* TripFricaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripFricaUITests.swift; sourceTree = "<group>"; };
 		979CBBF3259F08780072609B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		979CBC02259F15310072609B /* tips.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = tips.json; sourceTree = "<group>"; };
+		979CBC07259F153E0072609B /* locations.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = locations.json; sourceTree = "<group>"; };
+		979CBC0C259F16720072609B /* location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = location.swift; sourceTree = "<group>"; };
+		979CBC14259F27DC0072609B /* locations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = locations.swift; sourceTree = "<group>"; };
+		979CBC19259F32680072609B /* WorldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldView.swift; sourceTree = "<group>"; };
+		979CBC1E259F4FB80072609B /* tips.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tips.swift; sourceTree = "<group>"; };
+		979CBC23259F4FC90072609B /* TipsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,8 +111,15 @@
 			children = (
 				979CBBD4259F08740072609B /* TripFricaApp.swift */,
 				979CBBD6259F08740072609B /* ContentView.swift */,
+				979CBC19259F32680072609B /* WorldView.swift */,
+				979CBC1E259F4FB80072609B /* tips.swift */,
+				979CBC23259F4FC90072609B /* TipsView.swift */,
+				979CBC0C259F16720072609B /* location.swift */,
+				979CBC14259F27DC0072609B /* locations.swift */,
 				979CBBD8259F08780072609B /* Assets.xcassets */,
 				979CBBDD259F08780072609B /* Info.plist */,
+				979CBC02259F15310072609B /* tips.json */,
+				979CBC07259F153E0072609B /* locations.json */,
 				979CBBDA259F08780072609B /* Preview Content */,
 			);
 			path = TripFrica;
@@ -235,6 +256,8 @@
 			files = (
 				979CBBDC259F08780072609B /* Preview Assets.xcassets in Resources */,
 				979CBBD9259F08780072609B /* Assets.xcassets in Resources */,
+				979CBC08259F153E0072609B /* locations.json in Resources */,
+				979CBC03259F15310072609B /* tips.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,7 +283,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				979CBBD7259F08740072609B /* ContentView.swift in Sources */,
+				979CBC0D259F16720072609B /* location.swift in Sources */,
+				979CBC1A259F32680072609B /* WorldView.swift in Sources */,
+				979CBC15259F27DC0072609B /* locations.swift in Sources */,
+				979CBC24259F4FC90072609B /* TipsView.swift in Sources */,
 				979CBBD5259F08740072609B /* TripFricaApp.swift in Sources */,
+				979CBC1F259F4FB80072609B /* tips.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
